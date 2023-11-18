@@ -24,3 +24,12 @@ function  getSearchValue() {
 	return  searchValue;
 }
 ```
+### Experience
+From April 2022 to June 2023, I worked as a Frontend Developer at Shift Programmers Team. During this time, I developed and maintained frontend web applications using JavaScript, HTML, and CSS. I collaborated with clients and backend developers to meet their requirements and debugged issues in existing applications. I also implemented UI/UX best practices and optimized page loading speed.
+
+Since December 2022, I have been working as a Frontend Developer at NRD Tech. My responsibilities include writing clean and maintainable code using React and ES6+. I have been debugging and troubleshooting, refactoring code, and constantly improving the application. I have also been connecting APIs and internal services with the frontend, collaborating effectively with the rest of the team, and participating in meetings on time and following deadlines. Additionally, I have been creating jinja2 templates for server-side rendering (SSR).
+### Education
+Economics -- Bukhara State University
+Frontend Development -- Shift Academy
+### English
+My english level is somewhere around B2 (upper intermediate). The main courses I took are a year of Grammar course and 5 months of IELTS course. Apart from them I'm having little improvements frequently.
