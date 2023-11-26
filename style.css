@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  background-color: #0e2e7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.header__link {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: relative;
+}
+.header__link::after {
+  content: " >";
+}
+.header__link:hover::before {
+  width: 100%;
+  height: 1px;
+  content: "";
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.main {
+  height: 700px;
+  background-image: url("https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/786855/75-Front-end_Developer__2x-cc8a6db0c5d558addf48025632ae45f6.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #1a3f9e;
+  position: relative;
+}
+.main__content {
+  background-color: #ffffffc8;
+  position: absolute;
+  color: #000;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding-block: 30px;
+}
+.main__name {
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+.main__jobTitle {
+  font-size: 42px;
+}
+
+#summary {
+  padding-block: 30px;
+}
+.summary__title {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.summary__text {
+  font-size: 24px;
+  padding-inline: 10%;
+  text-align: justify;
+}
